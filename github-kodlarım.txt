@@ -1,0 +1,10 @@
+1.Bilgisayarınızda bir proje oluşturun.
+    git init    // Komutuyla yeni bir local depo oluşturun.
+2.Aşağıdaki komutla bütün dosyalarınızı yerel repoya ekleyebilirsiniz.
+    git add .  // Repodaki her şeyi yükler. Dosya belirtirsen dosyayı yükler sadece.
+3.Aşağıdaki komutla ilk commit(yorum) işleminizi gerçekleştiriniz.
+    git commit -m "ilk commit"
+4.Aşağıdaki kod parçası isimli bir uzak repository olan github a göndermenize yarar.
+    git remote add origin https://github.com/nafidurmus/deneme.git
+5.Son olarak aşağıdaki komutla githuba projenizi gönderiniz.
+    git push -u origin master
